@@ -1,7 +1,16 @@
 body {
     font-family: souce-sans-3-regular;
+    color: #ffffff;
 }
 
 div.hero {
     height: 100vh;
+}
+
+div.hero > div.backgound {
+    z-index: 1;
+}
+
+div.hero >div.content {
+    z-index: 2;
 }
