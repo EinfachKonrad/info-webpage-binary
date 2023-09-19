@@ -7,10 +7,10 @@ div.hero {
     height: 100vh;
 }
 
-div.hero > div.backgound {
+div.hero > div#backgound {
     z-index: 1;
 }
 
-div.hero >div.content {
+div.hero >div#content {
     z-index: 2;
 }
