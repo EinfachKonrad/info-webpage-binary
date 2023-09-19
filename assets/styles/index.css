@@ -15,7 +15,7 @@ div.hero > div.content {
     z-index: 2;
 }
 
-div.hero > div.content > p {
+div.hero > div.background > p {
     line-break: anywhere;
     max-width: 100vh;
 }
