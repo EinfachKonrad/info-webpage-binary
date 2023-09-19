@@ -17,5 +17,7 @@ div.hero > div.content {
 
 div.hero > div.background > p {
     line-break: anywhere;
-    max-width: 100vh;
+    max-width: 110;
+    max-height: 100;
+    overflow: hidden;
 }
