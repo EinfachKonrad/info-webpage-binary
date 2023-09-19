@@ -2,3 +2,6 @@ body {
     font-family: souce-sans-3-regular;
 }
 
+div.hero {
+    height: 100vh;
+}
