@@ -17,6 +17,7 @@ div.hero > div.content {
 
 div.hero > div.gradient {
     z-index: 3;
+    background: linear-gradient(180deg, #00000000 81%, #000000 100%);
 }
 
 div.hero > div.background > p {
