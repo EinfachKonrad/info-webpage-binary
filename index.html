@@ -18,9 +18,9 @@
         <script>
             function generateRandomBinary(binaryLength) {
                 const element = document.getElementById("backgound-text")
-                let binary = "";
+                let binary = "0b";
                 for(let i = 0; i < binaryLength; ++i) {
-                    binary += randomDigit();
+                    binary = randomDigit();
                 }
 
                 element.innerHTML = binary
