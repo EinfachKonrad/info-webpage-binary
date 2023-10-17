@@ -15,6 +15,10 @@ div.hero > div.content {
     z-index: 2;
 }
 
+div.hero > div.gradient {
+    z-index: 3;
+}
+
 div.hero > div.background > p {
     font-family: 'Fira Code', monospace;
     line-break: anywhere;
