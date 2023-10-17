@@ -16,9 +16,13 @@
         <script src="https://cdn.tailwindcss.com"></script>
 
         <script>
+            function randomDigit() {
+                return Math.floor(Math.random() * Math.floor(2));
+            }
+
             function generateRandomBinary(binaryLength) {
                 const element = document.getElementById("backgound-text")
-                let binary = "0b";
+                let binary = "";
                 for(let i = 0; i < binaryLength; ++i) {
                     binary = randomDigit();
                 }
