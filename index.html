@@ -16,13 +16,9 @@
         <script src="https://cdn.tailwindcss.com"></script>
 
         <script>
-            function randomDigit() {
-                return Math.floor(Math.random() * Math.floor(2));
-            }
-
             function generateRandomBinary(binaryLength) {
                 const element = document.getElementById("backgound-text")
-                let binary = "0b";
+                let binary = "";
                 for(let i = 0; i < binaryLength; ++i) {
                     binary += randomDigit();
                 }
@@ -34,9 +30,9 @@
     <body class="bg-slate-800" onload="generateRandomBinary(1000)">
         <div class="hero">
             <div class="background overflow-hidden">
-                <p id="backgound-text">tfest</p>
+                <p id="backgound-text top-5 scale-110">tfest</p>
             </div>
-            <div class="content">
+            <div class="content absolute">
                 test2
             </div>
         </div>
