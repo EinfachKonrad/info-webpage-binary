@@ -16,7 +16,7 @@ div.hero > div.content {
 }
 
 div.hero > div.background > p {
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Fira Code', monospace;
     line-break: anywhere;
     max-width: 110%;
     max-height: 100%;
