@@ -8,6 +8,7 @@ div.hero {
 }
 
 div.hero > div.backgound {
+    filter: blur();
     z-index: 1;
 }
 
