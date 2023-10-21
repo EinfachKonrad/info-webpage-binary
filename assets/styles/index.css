@@ -31,12 +31,13 @@ div.hero > div.background {
 
 div.hero > div.content {
     z-index: 3;
-    background: linear-gradient(180deg, #00000000 40%, #00000090 80%);
+    background: linear-gradient(180deg, #00000000 40%, #00000090 60%);
     backdrop-filter: blur(5px);
 
     margin: auto;
     top: -90vh;
     width: 50%;
+    height: 90%;
 }
 
 div.hero > div.gradient {
@@ -63,4 +64,17 @@ div.hero > div.background > p {
 
 .material-symbols-outlined.scale-250.mt-10.mb-14:hover {
     top: 15px;
+}
+
+
+
+@media screen and (max-width: 1919px) {
+
+    body {
+        display: none;
+    }
+
+    html {
+        background: #000000;
+    }
 }
