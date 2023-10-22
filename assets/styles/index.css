@@ -68,7 +68,7 @@ div.hero > div.background > p {
 
 
 
-@media screen and (max-width: 1919px) {
+/* @media screen and (max-width: 1919px) {
 
     body {
         display: none;
@@ -76,5 +76,48 @@ div.hero > div.background > p {
 
     html {
         background: #000000;
+    }
+} */
+
+@media screen and (max-width: 1490px) {
+    div#general img {
+        max-width: auto;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    div#hero h1 {
+        font-size: 11rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    div#hero h1 {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    div#hero h1 {
+        font-size: 9rem;
+    }
+}
+
+@media screen and (max-width: 1152px) {
+    div#hero h1 {
+        font-size: 8rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    div#hero h1 {
+        font-size: 7rem;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    div#hero h1 {
+        font-size: 6rem;
     }
 }
