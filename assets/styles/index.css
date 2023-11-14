@@ -121,3 +121,7 @@ div.hero > div.background > p {
         font-size: 6rem;
     }
 }
+
+div#content > div#tryout {
+    background: linear-gradient(180deg, #000000 0%, #1e1e1e 27%);
+}
