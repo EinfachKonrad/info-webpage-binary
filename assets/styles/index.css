@@ -122,6 +122,7 @@ div.hero > div.background > p {
     }
 }
 
-div#content > div#tryout {
+div#main > div#tryout {
     background: linear-gradient(180deg, #000000 0%, #1e1e1e 27%);
 }
+
